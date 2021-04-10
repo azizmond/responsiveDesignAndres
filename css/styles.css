@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display+SC&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+h2, h4, h5, h6{
+	color: #342F4B;
+}
+
+.newConcepto{
+	color: #FCB315;
+	padding: 5px;
+	font-size: 50rem;
+}
+
+h5 a{
+	color: #342F4B;
+}
+
+h5 a:hover{
+	color: #342F4B;
+	text-decoration: none;
+}
+
+.background-navbar{
+	background-color: #342F4B;
+}
+
+.encabezado{
+	height: 75vh;
+	background-image: url(../image/meeting-594091_1920.jpg);
+	background-size: cover;
+}
+
+.logo{
+	height: 28vh;
+    width: auto;
+}
+
+.menu-text{
+	font-size: 1em;
+}
+
+.parrafo{
+	font-size: 1em;
+}
+
+.rounded-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+textarea{
+	resize: none;
+}
+
+.btn-outline-primary {
+	color: #008296;
+	border-color: #008296;
+}
+
+.btn-outline-primary:hover {
+	color: #fff;
+	background-color: #008296;
+	border-color: #342F4B;
+}	
+
+.footer{
+	background: #342F4B;
+	color: white;
+}
+
+.footer ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer ul li a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.footer p a{
+	color: white;
+	text-decoration: none;
+}
+
+.fax{
+		font-size: 2rem;
+		color: white;
+	}
+
+a i{
+	font-size: 2em;
+}
+
+.prop {
+	height: 100%;
+}
+
+.prop form {
+	background: rgba(209, 209, 209, 1);
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.card-paragraph {
+	font-size: .7em;
+}
+
+.mapa {
+	text-align: left;
+}
+
+.mapar {
+	text-align: right;
+}
+
+.too {
+	text-align: right;
+}
+
+/*XS*/
+@media (max-width:767px)
+{
+	.encabezado{
+		height: 100vh;
+	}
+
+	.parrafo{
+		font-size: 2em;
+	}
+
+	.logo{
+	height: 40vh;
+    width: auto;
+	}
+
+	.menu-text{
+		font-size: 2.5em;
+		text-align: center;
+	}
+
+	a i{
+		font-size: 4em;
+	}
+
+	.card-paragraph {
+	font-size: 1.4em;
+	}
+
+	.card-title {
+		font-size: 1.8em;
+	}
+}
+
+/*SM*/
+@media (min-width:768px) and (max-width:991px)
+{
+	.newConcepto h3{
+		font-size: 3rem;
+	}
+
+	.menu-text{
+		font-size: 2.5em;
+		text-align: center;
+	}
+
+	.parrafo{
+		font-size: 1.5em;
+	}
+
+	a i{
+		font-size: 4em;
+	}
+
+	.card-paragraph {
+	font-size: 1.4em;
+	}
+
+	.card-title {
+		font-size: 1.8em;
+	}
+}
+
+/*MD*/
+@media (min-width:992px) and (max-width:1199px)
+{
+	.newConcepto h3{
+		font-size: 2rem;
+	}
+
+	.menu-text{
+		font-size: 1em;
+		text-align: center;
+	}
+}
+
+/*LG*/
+@media (min-width:1200px)
+{
+	.newConcepto h3{
+		font-size: 1.5rem;
+	}
+
+	.menu-text{
+		font-size: 1em;
+	}
+}
